@@ -138,6 +138,24 @@ PS:GIT is DVCS
 
 
 	ABOUT FORK WAY OF WORKING
+		>> FORK DI AS YOUR OWN REPO
+		>> CLONE THE FORKED REPO THIS WILL BE ORIGIN
+		>> ADD REMOTE TO TRACK DI REPO AS UPSTREAM
+		>> FETCH UPSTREAM TO GET REFRENCES ON LOCAL FOR DI
+		--- YOU ARE READY TO WORK ON LOCAL ---
+
+		>> PULL FROM UPSTREAM EVERY TIME
+		>> PUSH TO ORIGIN(FORKED REPO)
+
+		>> CREATE A PR FROM FORKED REPO TO UPSTREAM 
+
+
+	FEATURE BRANCH NAMEING CONVENTION
+		YOURNAME/TEAMNAME/FEATUREID eg: ABC/UX/SHOP-123 //where 'ABC' is developer, 'UX' is team he/she is working this change for and 'SHOP-123' is the jira id of feature being worked on.
+
+	MESSAGE SYNTAX:
+		SHOP-123: DETAILS //where shop-123 is jira id for feature being implemented
+
 
 Reference:
 	https://git-scm.com/docs
